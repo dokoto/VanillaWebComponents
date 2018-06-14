@@ -6,3 +6,4 @@ https://developer.mozilla.org/es/docs/Web/Reference/Events/DOMContentLoaded
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export
 
 https://teamgaslight.com/blog/roll-your-own-html5-web-components-with-vanilla-js
+https://www.html5rocks.com/en/tutorials/webcomponents/imports/

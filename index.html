@@ -7,10 +7,24 @@
     <title>WebComponent No Framework</title>
 </head>
 
+<script>
+    function handleLoad(e) {
+        console.log('Loaded import: ' + e.target.href);
+    }
+    function handleError(e) {
+        console.log('Error loading import: ' + e.target.href);
+    }
+</script>
+
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <cc-one></cc-one>
+    </div>
     <!-- built files will be auto injected -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.14/webcomponents-hi.js"></script>
+    <link rel="import" href="./ComponentOne.html" onload="handleLoad(event)" onerror="handleError(event)">
 </body>
+
 <script type=module>
     import main from './main.js';
     document.addEventListener('DOMContentLoaded', function(event) {
@@ -18,4 +32,5 @@
         main();
     });
 </script>
+
 </html>

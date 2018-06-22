@@ -1,5 +1,7 @@
 # VanillaWebComponents
 
+https://ayushgp.github.io/html-web-components-using-vanilla-js-part-2/
+
 https://developers.google.com/web/fundamentals/web-components/customelements?hl=es
 
 https://developer.mozilla.org/es/docs/Web/Web_Components/Custom_Elements
